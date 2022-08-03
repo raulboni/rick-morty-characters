@@ -26,10 +26,10 @@ const Character = ({ data }) => {
             layout="fixed"
           ></Image>
           <ul className="font-mono">
-            <li>{species}</li>
-            <li>{gender}</li>
-            <li>{origin.name}</li>
-            <li>{status}</li>
+            <li>Species: {species}</li>
+            <li>Gender: {gender}</li>
+            <li>Origin: {origin.name}</li>
+            <li>Status: {status}</li>
           </ul>
         </div>
       </div>
